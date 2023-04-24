@@ -1,0 +1,148 @@
+{
+	"info": {
+		"_postman_id": "876e628f-a574-4731-b10d-53afce8f5e44",
+		"name": "Checklists",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23409251"
+	},
+	"item": [
+		{
+			"name": "Create a Checklist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/1/checklists?key={{key}}&token={{token}}&idCard=64444dae119d7e1e98da923c&name=Czeklista todo1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"checklists"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "idCard",
+							"value": "64444dae119d7e1e98da923c"
+						},
+						{
+							"key": "name",
+							"value": "Czeklista todo1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Checkitem1 on Checklist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/1/checklist/6444f3bb93e9fd3f5428a423/checkitems?key={{key}}&token={{token}}&name=Checktodo1",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"checklist",
+						"6444f3bb93e9fd3f5428a423",
+						"checkitems"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "Checktodo1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Checkitem2 on Checklist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/1/checklist/6444f3bb93e9fd3f5428a423/checkitems?key={{key}}&token={{token}}&name=Checktodo2",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"checklist",
+						"6444f3bb93e9fd3f5428a423",
+						"checkitems"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "Checktodo2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Checkitem3 on Checklist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/1/checklist/6444f3bb93e9fd3f5428a423/checkitems?key={{key}}&token={{token}}&name=Checktodo3",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"1",
+						"checklist",
+						"6444f3bb93e9fd3f5428a423",
+						"checkitems"
+					],
+					"query": [
+						{
+							"key": "key",
+							"value": "{{key}}"
+						},
+						{
+							"key": "token",
+							"value": "{{token}}"
+						},
+						{
+							"key": "name",
+							"value": "Checktodo3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
